@@ -1,0 +1,28 @@
+.specifics,
+.specifics__title,
+.application,
+.application__title,
+.team__title,
+.team__card__title,
+.portfolio__cards__name,
+.client__title
+
+/* h2,h3 */
+    {
+    color: var(--title-text-color);
+
+}
+
+.specifics,
+.application__title,
+.team__title,
+.portfolio__cards__name,
+.client__title
+
+/* h2 */
+    {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
