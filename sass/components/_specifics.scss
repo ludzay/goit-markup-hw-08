@@ -1,0 +1,60 @@
+/* секція Specifics */
+
+.specifics {
+    display:none;
+    &__title {
+            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 1.14;
+            text-transform: uppercase;
+    }
+    &__list {
+            display: flex;
+        
+    
+    }
+    &__list &__item {
+        width: 270px;
+        margin-right: 30px;
+    
+    
+    }
+    &__list &__item:last-child {
+        margin-right: 0;
+    }
+    
+    &__list>&__item::before {
+        display: block;
+        content: "";
+        height: 120px;
+        background-color: var(--secondary-background-color);
+    
+        background-size: contain;
+        background-size: 65px, 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 30px;
+    }
+        &__item.icon-details::before {
+            background-image: url("../images/det.svg");
+        }
+
+        &__item.icon-punkt::before {
+            background-image: url("../images/punkt.svg");
+        }
+        &__item.icon-plan::before {
+           background-image: url("../images/diagram.svg");
+     }
+        &__item.icon-techno::before {
+            background-image: url("../images/astronaut.svg");
+        }
+}
+
+
+
+
+
+
+
+
+
