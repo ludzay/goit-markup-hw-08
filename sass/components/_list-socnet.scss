@@ -1,0 +1,43 @@
+.list-socnet {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+
+
+}
+
+.icon-socnet {
+    margin-right: 10px;
+
+    &:last-child {
+            margin-right: 0;
+        }
+}
+
+
+
+
+.icon-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    fill: var(--color-icon);
+    &:hover {
+            background-color: var(--accent-color);
+            fill: var(--color-white);
+        }
+    
+    &:focus {
+            fill: var(--color-white);
+            background-color: var(--accent-color);
+        }
+
+}
+
