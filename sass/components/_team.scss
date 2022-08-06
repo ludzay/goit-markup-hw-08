@@ -10,7 +10,10 @@
     
         }
     &__list {
-            display: flex;
+            @media (min-width:768px){
+                display: flex;
+            }
+            
     
         }
     
